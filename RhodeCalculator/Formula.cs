@@ -34,7 +34,10 @@ namespace RhodeCalculator
         }
         public static void ArtsDamageFormula(double OPFinalAtk)
         {
-            double result = (OPFinalAtk);
+            double results = 0;
+            Console.WriteLine("____________________________");
+            Console.WriteLine("Final Arts Damage during combat " + Math.Round(results, 0));
+            Console.ReadLine();
         }
     }
 }

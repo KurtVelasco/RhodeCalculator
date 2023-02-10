@@ -13,6 +13,7 @@ namespace RhodeCalculator
         {
             while(SetFlag)
             {
+                //Provide the Logo If necessary 
                 ReadTextFiles.Logo();
                 Console.WriteLine(MenuOptions.Introduction);
                 Console.WriteLine(MenuOptions.MenuSelections);
